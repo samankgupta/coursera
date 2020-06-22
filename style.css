@@ -1,0 +1,67 @@
+body{
+	font-family: 'PT Sans', sans-serif;
+	background-color: rgb(40, 237, 80);
+}
+#header-nav{
+	border: 0;
+	border-radius: 0;
+	background-color: rgb(208, 255, 38);
+	padding: 0;
+}
+.navbar-brand{
+	text-shadow: 1px 1px black;
+	margin: 10px 0;
+}
+.navbar-brand a{
+	color: rgb(40, 237, 80);
+
+}
+.navbar-brand a:hover,.navbar-brand a:focus{
+	color: rgb(16, 196, 121);
+	text-decoration: none;
+}
+.nav-link{
+	text-align: center;
+	font-size: 23px;
+	margin: 0 5px;
+}
+#ourmenu{
+	margin-top: 20px;
+	color: rgb(0, 150, 110);
+	text-shadow: 1px 1px black;
+	font-size: 37px;
+}
+.section {
+    margin: 40px 0;
+    border: 1px solid black;
+	background-color: rgb(66, 245, 182);
+	position: relative;
+}
+.cards h3{
+	top: 0;
+	right: 0;
+	position: absolute;
+	width: 100%;
+	background-color: rgb(52, 250, 115);
+	font-size: 25px;
+}
+#beef{
+	background-color: rgb(255, 194, 25);
+}
+#sushi{
+	background-color: rgb(0, 221, 237);
+}
+.cards p{
+	padding: 20px;
+	padding-top: 50px;
+}
+nav button span{
+	font-size: 30px;
+	color: rgb(27, 161, 63);
+}
+
+@media (max-width: 767px){
+	#header-nav{
+		padding: 0 25px;
+	}
+}
